@@ -1,11 +1,18 @@
 .moytext{
-    color:rgb(75, 75, 255);
+    color:rgb(186, 0, 50);
 }
 
 a{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(132, 0, 255);
    
+}
+
+article{
+    width: 700px; /* ширина блока/контейнера */
+    margin: 0 auto;
+    /* внешний отступ вверх и вних = 0 */
+    background: #c2c2c2;
 }
 
 .liner{
@@ -25,5 +32,43 @@ nav{
 
 a{
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 112, 43);
+}
+
+h1, h2, h3, p, ol, ul, blockquote, div{
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 48px;
+    margin-top: 67px;
+    line-height: 45px;
+}
+
+h1 + hr + p{
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgb(58, 58, 58)
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 28px;
+    line-height: 34px;
+}
+
+h3{
+    font-size: 38px;
+    margin-top: 24px;
+    line-height: 30px;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+h2 + blockquote{
+    margin-top: 7px;
 }
