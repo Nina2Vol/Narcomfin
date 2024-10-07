@@ -9,10 +9,10 @@ a{
 }
 
 article{
-    width: 700px; /* ширина блока/контейнера */
+    width: 800px; /* ширина блока/контейнера */
     margin: 0 auto;
     /* внешний отступ вверх и вних = 0 */
-    background: #c2c2c2;
+    background: #ffffff;
 }
 
 .liner{
